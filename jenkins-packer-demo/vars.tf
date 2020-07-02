@@ -28,5 +28,5 @@ variable "APP_INSTANCE_COUNT" {
 
 variable "DUMMY_SSH_PUB_KEY" {
   description = "public ssh key to put in place if there's no public key defined - to avoid errors in jenkins if it doesn't have a public key"
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCySrVgnlDjgO1O0xNj7KLQ8aFh6y3DMEoqpSgvk8pMaG4hqJmYOGLcYr9SNbRThqnalweFfzDQIbNGK6PQcEWKYfxUwogjsn65OOUHdD91MtqiNg5MW3bFk2wlpXs5T83ASqnafmcSbsU3AWFoTpS+4xFYbRUTQVwos85nkuxpVohIwfkGqyZXyPjVZku1OvXLTxI+AjPqPpFTlzTtGT7swklNTd76QSiQU7o4206/93JZKivedqrZAhgstG5jm8EwDeSbJzkm9W22hKT5Or7viyFasQruqYZ12FlzURVw5IvyqmNxr2ncEgSXFCcIFYOaxuQNbW0SeSg++dn0Cezl root@ubuntu-xenial"
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzxdX9V80xNM1nCoJBonasaEybXm5vNrVx1HNZ+zRXTHYxX30nK4zyteWtikNkmLRwdd5+OkadX1VXMaGXQGirSEwLBrDbY+bddv0+hHKiEJnD5rb86mw1Lw+/opU2pEikJQgdRNlsXK5lNrivQ7g19w45vG3YPSA1xdAEeKPK14oXgH+/VOZ8U4ATtXt71yth5It20SnM4q0zYmjFZUs/jxXj4uw4/kcilBFqvLyM17n1xMxZ8fkOlFx46yAzeZImPZ8yBw+orgPE29A719hi6SW4zOzl4UrukZzZdfcI7sGqQXFR9Umjeq/msA7QM3O9fGECnhQS7r86kEQGA9LL root@ubuntu-xenial"
 }
