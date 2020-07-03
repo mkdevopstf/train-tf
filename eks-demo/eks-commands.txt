@@ -1,0 +1,18 @@
+//// Terraform Commands ///////////
+yum install git -y // install git
+mkdir -p /opt/terraform-demo && cd /opt/terraform-demo // create folder and navigate
+git clone https://github.com/maheshkharwadkar/terraform-course.git // clone project
+cd terraform-course/ // navigate inside
+git checkout terraform-0.12 // checkout
+
+// Get python3, pip3, aws-cli
+yum install python3 -y // install python3
+python3 --version
+curl -O https://bootstrap.pypa.io/get-pip.py 
+python3 get-pip.py --user
+ls -a ~
+export PATH=~/.local/bin:$PATH
+source ~/.bash_profile
+pip3 --version
+pip3 install awscli --upgrade --user // install awscli
+aws --version
